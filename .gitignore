@@ -48,3 +48,4 @@ _gnuplot/**/*.svg
 .jekyll-cache/
 .idea
 *.iml
+.aidy
