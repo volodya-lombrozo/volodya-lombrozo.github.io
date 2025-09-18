@@ -2,7 +2,7 @@
 \ProvidesClass{vl}[21/4/2021 0.1.0 Template for my documents]
 \LoadClass[11pt]{article}
 \RequirePackage{xcolor}
-\definecolor{vl-color}{RGB}{255, 229, 204}
+\definecolor{vl-color}{RGB}{47, 52, 63}
 \RequirePackage{graphicx}
 \RequirePackage{microtype}
 \RequirePackage{libertine}
@@ -46,8 +46,8 @@
 }
 
 \newcommand\vlPrintPhoto{
-\begin{textblock}{2.1}[1,0](14,1){
-\includegraphics[width=\textwidth]{github-avatar-3x4.jpg}
+\begin{textblock}{2.1}[1,1](14,3.5){
+\includegraphics[width=\textwidth]{avatar.jpg}
 }\end{textblock}
 }
 
