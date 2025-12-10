@@ -4,3 +4,5 @@ description: "The personal blog since 2023"
 encoding: utf-8
 include: ["_pages"]
 
+# Prevent any theme from being applied
+theme: null
