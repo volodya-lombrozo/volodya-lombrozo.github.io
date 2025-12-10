@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: Title of My Page
 author: Volodya Lombrozo
 ---

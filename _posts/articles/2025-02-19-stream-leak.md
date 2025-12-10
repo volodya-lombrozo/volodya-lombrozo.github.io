@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Thread-Safety Pitfalls in XML Processing or How To Shoot Yourself in The Foot"
+title: "Thread-Safety Pitfalls in XML Processing"
+excerpt: "Or how to shoot yourself in the foot with Java Streams. Learn thread-safety pitfalls in Java’s DOM and Stream APIs — and practical strategies to avoid concurrency issues."
 date: 2025-02-19
 ---
 
-# Thread-Safety Pitfalls in XML Processing—or How to Shoot Yourself in the Foot with Java Streams
+# Thread-Safety Pitfalls in XML Processing
 
 Do you think the method `children()` below is thread-safe?
 
@@ -219,3 +220,5 @@ If you're curious, you can check out the actual fix
 in [this](https://github.com/volodya-lombrozo/xnav/pull/62) pull request.
 
 Happy coding! And watch out for those lazy streams!
+
+This article was also published on [dzone.com](https://dzone.com/articles/thread-safety-pitfalls-in-xml-processing).

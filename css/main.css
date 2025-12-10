@@ -1,0 +1,87 @@
+:root {
+    --primary-color: #2f343f;
+    --secondary-color: #50e3c2;
+    --font-color: #333333;
+    --background-color: #f8f9fa;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: background-color;
+}
+
+.avatar {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    border: 5px solid white;
+    box-sizing: border-box;
+    z-index: 1;
+    margin-top:60px;
+}
+
+.container {
+    position: relative;
+    width: 90%;
+    max-width: 800px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background-color: var(--primary-color);
+    z-index: 0;
+}
+
+.signature {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    font-size: 24px;
+    color: white;
+    z-index: 10;
+}
+
+.preview a {
+    text-decoration: none;
+    clolor: black;
+}
+
+.preview a:visited {
+    color: black;
+}
+
+.preview h1 {
+    margin-bottom: 3px;
+}
+
+.comment-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.comment-list li {
+    display: inline;
+    margin-right: 10px;
+    color: #ccc;
+    font-style: italic;
+}

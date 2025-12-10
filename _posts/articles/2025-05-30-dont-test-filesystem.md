@@ -1,6 +1,12 @@
+---
+layout: post
+title: "Mock the File System"
+excerpt: "Using the real file system in tests might seem convenient at first, but it leads to hidden state, slow execution, and an unmaintainable setup."
+date: 2025-06-27
+---
+
 # Mock the File System
 
-The article was published on [dzone.com](https://dzone.com/articles/mock-the-file-system)
 
 It happens quite often that our applications need to interact with the file system.  
 As a result, some components inevitably depend on it.
@@ -216,3 +222,5 @@ Like any external dependency, the file system should be decoupled from your doma
 Put simply, refusing to mock the file system is a costly mistake—one that will inevitably, and quietly, kill your project like a slow, dangerous disease.
 It's better to avoid using the file system in your tests.
 Stay healthy, and happy coding!
+
+The article was published on [dzone.com](https://dzone.com/articles/mock-the-file-system)
