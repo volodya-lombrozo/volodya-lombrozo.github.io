@@ -7,10 +7,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="background">
-        <div class="signature">:volodya-lombrozo</div>
-      </div>
-      <img src="/images/avatar.jpg" alt="avatar" class="avatar">
+      {% include top.html %}
       <main>{{ content }}</main>
       {% for post in site.posts %}
       <div class="preview">
@@ -25,7 +22,7 @@
         <p>{{ post.excerpt }}</p>
       </div>
       {% endfor %}
-      <footer><p>&copy; {{ 'now' | date: '%Y' }} {{ site.title }}</p></footer>
+      {% include footer.html %}
     </div>
   </body>
 </html>
